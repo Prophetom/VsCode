@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+<script>
+    function generatetext(letters, length) {
+
+        var text = '';
+        for (var i = 0; i < length; i++) {
+            var n = getRandomNumber(letters.length - 1);
+            text = text + letters[n];
+        }
+        return text;
+    }
+
+/**
+*! Нужно дописать программу, задание смотреть в GeekBrains
+*TODO Лучше разобраться в том как работают функции
+ */
+
+
+    function getRandomNumber(max) {
+        return Math.round(Math.random() * max);
+    }
+
+    while (true) {
+        alert('Welcome to the touch typing training program');
+        alert('Put 4 fingers on the keys f, s, b, a');
+
+        var text = generatetext(['ф', 'а'], 10);
+        var userText = prompt(text);
+        if (userText == text) {
+            alert('Thats right, congratulations!');
+            break;
+        } else {
+            alert('You made a mistake, please try again');
+        }
+    }
+</script>
