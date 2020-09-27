@@ -1,4 +1,34 @@
 <meta charset="UTF-8">
 <script>
+    function getRandomNumber(max) {
+        return Math.round(Math.random() * max);
+    }
+
+    function generateRandomArray(length) {
+        var numbers = []
+        for (var i = 0; i < 7; i++) {
+            var randomNumber = getRandomNumber(10);
+            numbers.push(randomNumber);
+        }
+        return numbers;
+    }
+    var arrayN = generateRandomArray(7);
+    alert(arrayN);
+
+
+    function arrayMore(array) {
+        
+    }
+
+    function arraySum(array) {
+        var sum = 0;
+        for(i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+        return sum
+    }
+    
+    arrayN = arraySum(arrayN);
+    alert(arrayN);
 
 </script>
