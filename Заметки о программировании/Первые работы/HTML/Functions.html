@@ -50,5 +50,19 @@
     }
     arrayN = arraySum(arrayN);
     alert('Сумма чисел массива = ' + arrayN);
+    
+    function recursiveFactorial(n) {
+    /** 
+    * *Функция по вычислению рекурсивного факториала
+    */
+    if (n == 0)
+        return 1;
+    else {
+       return recursiveFactorial(n - 1) * n;
+    }
+}
+    
+
+
 
 </script>
