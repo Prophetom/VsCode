@@ -1,7 +1,6 @@
 <meta charset="UTF-8">
 <script>
     function generatetext(letters, length) {
-
         var text = '';
         for (var i = 0; i < length; i++) {
             var n = getRandomNumber(letters.length - 1);
@@ -9,11 +8,6 @@
         }
         return text;
     }
-
-/**
-* TODO: Нужно дописать программу, задание смотреть в GeekBrains
- */
-
 
     function getRandomNumber(max) {
         return Math.round(Math.random() * max);
@@ -26,6 +20,19 @@
         var text = generatetext(['ф', 'а'], 10);
         var userText = prompt(text);
         if (userText == text) {
+            alert('Thats right, congratulations!');
+            break;
+        } else {
+            alert('You made a mistake, please try again');
+        }
+    }
+    alert('Congratulations, you are moving to the second level!')
+    while(true) {
+        alert('Поставьте мизинец левой руки на букву Ф, безымянный палец — на Ы, средний — на В, указательный — на А. Мизинец правой руки на букву Ж, безымянный палец — на Д, средний — на Л, указательный — на О. Запомните расположение пальцев. Повторяйте за мной')
+        
+        var text = generatetext(['ы', 'в'], 10);
+        var userText2 = prompt(text)
+        if(userText2 == text) {
             alert('Thats right, congratulations!');
             break;
         } else {
