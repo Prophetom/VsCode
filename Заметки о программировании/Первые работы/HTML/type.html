@@ -13,51 +13,36 @@
         return Math.round(Math.random() * max);
     }
 
-    function congratulations(userText, text) {
-        if (userText == text) {
+    function compareAnswer (text, rule) {
+        while(true) {
+            alert(rule)
+            var userText = prompt(text);
+            if (userText == text) {
             alert('Thats right, congratulations!');
             break;
         } else {
             alert('You made a mistake, please try again');
+            }
         }
     }
 
     alert('Welcome to the touch typing training program');
-    alert('Put 4 fingers on the keys ф, ы, в, а');
+    var rule1 = 'Put 4 fingers on the keys ф, ы, в, а';
+    var rule2 = 'Поставьте мизинец левой руки на букву Ф, безымянный палец — на Ы, средний — на В, указательный — на А. Мизинец правой руки на букву Ж, безымянный палец — на Д, средний — на Л, указательный — на О. Запомните расположение пальцев. Повторяйте за мной';
+    var rule3 = 'Поставьте мизинец левой руки на букву Ф, безымянный палец — на Ы, средний — на В, указательный — на А. Мизинец правой руки на букву Ж, безымянный палец — на Д, средний -— на Л, указательный — на О. Запомните расположение пальцев';
 
-    while (true) {
         var text = generatetext(['ф', 'а'], 10);
-        var userText = prompt(text);
-        if (userText == text) {
-            alert('Thats right, congratulations!');
-            break;
-        } else {
-            alert('You made a mistake, please try again');
-        }
-    }
+        compareAnswer(text, rule1);
+       
     alert('Congratulations, you are moving to the second level!')
-    alert('Поставьте мизинец левой руки на букву Ф, безымянный палец — на Ы, средний — на В, указательный — на А. Мизинец правой руки на букву Ж, безымянный палец — на Д, средний — на Л, указательный — на О. Запомните расположение пальцев. Повторяйте за мной')
-    while (true) {
+   
         var text = generatetext(['ы', 'в'], 10);
-        var userText2 = prompt(text)
-        if (userText2 == text) {
-            alert('Thats right, congratulations!');
-            break;
-        } else {
-            alert('You made a mistake, please try again');
-        }
-    }
+        compareAnswer(text, rule2);
+
     alert('Congratulations, you are moving to the third level!')
-    alert('Поставьте мизинец левой руки на букву Ф, безымянный палец — на Ы, средний — на В, указательный — на А. Мизинец правой руки на букву Ж, безымянный палец — на Д, средний -— на Л, указательный — на О. Запомните расположение пальцев')
-    while (true) {
+
         var text = generatetext(['о', 'ж'], 10);
-        var userText3 = prompt(text);
-        if(userText3 == text) {
-            alert('Thats right, congratulations!');
-            break;
-        } else {
-            alert('You made a mistake, please try again');
-        }
-    }
+        compareAnswer(text, rule3);
+
     alert('Поздравляем, вы освоили базу в слепой печати и можете, интуитивно, правильно расположить пальцы!')
 </script>
