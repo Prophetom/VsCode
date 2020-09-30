@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<script>
+    var score = 0;
+
+function compareAnswer(text, array) {
+    var userAnswer = prompt(text);
+    userAnswer = userAnswer.toLowerCase();
+
+    for(var i = 0; i<=array.length; i++) {
+        if (userAnswer == array[i]) {
+            alert("Good work");
+            score++;
+            return;
+        }
+    }
+    alert("Nooo");
+
+}
+
+compareAnswer("Речка спятила с ума — По домам пошла сама. Что же это?", ["водоснабжение", "водопровод"]);
+compareAnswer("Музыкант, певец, рассказчик — а всего труба да ящик. Что это?", ["патифон", "граммофон"]);
+compareAnswer("Пустые отдыхаем, а полные шагаем. Что это?", ["сапоги", "ботинки", "обувь"]);
+
+alert("Вы отгадали "+ score + " из трех загадок");
+</script>
