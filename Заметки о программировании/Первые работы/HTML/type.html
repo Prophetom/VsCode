@@ -1,48 +1,48 @@
 <meta charset="UTF-8">
 <script>
-    function generatetext(letters, length) {
-        var text = '';
-        for (var i = 0; i < length; i++) {
-            var n = getRandomNumber(letters.length - 1);
-            text = text + letters[n];
-        }
-        return text;
-    }
+	function generatetext(letters, length) {
+		var text = '';
+		for (var i = 0; i < length; i++) {
+			var n = getRandomNumber(letters.length - 1);
+			text = text + letters[n];
+		}
+		return text;
+	}
 
-    function getRandomNumber(max) {
-        return Math.round(Math.random() * max);
-    }
+	function getRandomNumber(max) {
+		return Math.round(Math.random() * max);
+	}
 
-    function compareAnswer (text, rule) {
-        while(true) {
-            alert(rule)
-            var userText = prompt(text);
-            if (userText == text) {
-            alert('Thats right, congratulations!');
-            break;
-        } else {
-            alert('You made a mistake, please try again');
-            }
-        }
-    }
+	function compareAnswer (text, rule) {
+		while(true) {
+			alert(rule)
+			var userText = prompt(text);
+			if (userText == text) {
+			alert('Thats right, congratulations!');
+			break;
+		} else {
+			alert('You made a mistake, please try again');
+			}
+		}
+	}
 
-    alert('Welcome to the touch typing training program');
-    var rule1 = 'Put 4 fingers on the keys ф, ы, в, а';
-    var rule2 = 'Place the little finger of your left hand on the letter F, the ring finger on Y, the middle finger on B, the index finger on A. The little finger of the right hand on the letter F, the ring finger on D, the middle finger on L, the index finger on O. Remember the location of the fingers Repeat after me';
-    var rule3 = 'Place the little finger of your left hand on the letter F, the ring finger on Y, the middle finger on B, the index finger on A. The little finger of the right hand on the letter F, the ring finger on D, the middle finger on L, the index finger on O. Remember the location fingers';
+	alert('Welcome to the touch typing training program');
+	var rule1 = 'Put 4 fingers on the keys ф, ы, в, а';
+	var rule2 = 'Place the little finger of your left hand on the letter F, the ring finger on Y, the middle finger on B, the index finger on A. The little finger of the right hand on the letter F, the ring finger on D, the middle finger on L, the index finger on O. Remember the location of the fingers Repeat after me';
+	var rule3 = 'Place the little finger of your left hand on the letter F, the ring finger on Y, the middle finger on B, the index finger on A. The little finger of the right hand on the letter F, the ring finger on D, the middle finger on L, the index finger on O. Remember the location fingers';
 
-        var text = generatetext(['ф', 'а'], 10);
-        compareAnswer(text, rule1);
+		var text = generatetext(['ф', 'а'], 10);
+		compareAnswer(text, rule1);
 
-    alert('Congratulations, you are moving to the second level!')
+	alert('Congratulations, you are moving to the second level!')
 
-        var text = generatetext(['ы', 'в'], 10);
-        compareAnswer(text, rule2);
+		var text = generatetext(['ы', 'в'], 10);
+		compareAnswer(text, rule2);
 
-    alert('Congratulations, you are moving to the third level!')
+	alert('Congratulations, you are moving to the third level!')
 
-        var text = generatetext(['о', 'ж'], 10);
-        compareAnswer(text, rule3);
+		var text = generatetext(['о', 'ж'], 10);
+		compareAnswer(text, rule3);
 
-    alert('Congratulations, you have mastered the touch typing base and can intuitively position your fingers correctly!')
+	alert('Congratulations, you have mastered the touch typing base and can intuitively position your fingers correctly!')
 </script>

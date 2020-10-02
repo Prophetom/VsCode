@@ -1,19 +1,19 @@
 <meta charset="UTF-8">
 <script>
-    var score = 0;
+	var score = 0;
 
 function compareAnswer(text, array) {
-    var userAnswer = prompt(text);
-    userAnswer = userAnswer.toLowerCase();
+	var userAnswer = prompt(text);
+	userAnswer = userAnswer.toLowerCase();
 
-    for(var i = 0; i<=array.length; i++) {
-        if (userAnswer == array[i]) {
-            alert("Отличная работа, вы молодец");
-            score++;
-            return;
-        }
-    }
-    alert("Nooo");
+	for(var i = 0; i<=array.length; i++) {
+		if (userAnswer == array[i]) {
+			alert("Отличная работа, вы молодец");
+			score++;
+			return;
+		}
+	}
+	alert("Nooo");
 
 }
 

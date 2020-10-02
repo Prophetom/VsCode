@@ -1,24 +1,24 @@
 <meta charset="UTF-8">
 <script>
   function compareAnswer(userAnswer, answer) {
-    if (userAnswer == answer) {
-      alert('Вы молодец, ответ верный!');
-    } else {
-      alert('Ответ неверный, правильное число ' + answer);
-    }
+	if (userAnswer == answer) {
+	  alert('Вы молодец, ответ верный!');
+	} else {
+	  alert('Ответ неверный, правильное число ' + answer);
+	}
   }
 
   function getRandomNumber(max) {
-    return Math.round(Math.random() * max);
+	return Math.round(Math.random() * max);
   }
 
   function generateRandomNumberArray(length) {
-    var numbers = []
-    for (var i = 0; i < 5; i++) {
-      var randomNumber = getRandomNumber(100);
-      numbers.push(randomNumber);
-    }
-    return numbers;
+	var numbers = []
+	for (var i = 0; i < 5; i++) {
+	  var randomNumber = getRandomNumber(100);
+	  numbers.push(randomNumber);
+	}
+	return numbers;
   }
 
   var numbers = generateRandomNumberArray(5)
