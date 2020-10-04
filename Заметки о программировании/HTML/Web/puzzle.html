@@ -7,21 +7,25 @@
 		<link rel="stylesheet" href="style.css" />
 		<script type="text/javascript">
 
-			function checkAnswers() {
-				var userAnswer = document.getElementById("userAnswer1").value;
-				var score = 0;
+			var score = 0;
+
+			function shortCheck (inputId, answers) {
+				var userAnswer = document.getElementById(inputId).value;
 				userAnswer = userAnswer.toLowerCase();
-				if(userAnswer == "водопровод" || userAnswer == "водоснабжение" ) {
-					score++;
-				} 
-				userAnswer = document.getElementById("userAnswer2").value;
-				if(userAnswer == "патифон" || userAnswer == "граммофон" ) {
-					score++;
+				for(i = 0; i < answers.length; i++) {
+					if(userAnswer == answers[i]) {
+					score ++
+					break;	
+					}
 				}
-				userAnswer = document.getElementById("userAnswer3").value;
-				if(userAnswer == "сапоги" || userAnswer == "ботинки" || userAnswer == "обувь" ) {
-					score++;
-				}
+			}
+
+			function checkAnswers() {
+
+				shortCheck(userAnswer1, ["водопровод", "водоснабжение"]);
+				shortCheck(userAnswer2, ["патифон", "граммофон"]);
+				shortCheck(userAnswer3, ["сапоги", "обувь", "ботинки"]);
+
 				alert("Вы отгадали " + score + " из 3-х загадок");
 			}
 
