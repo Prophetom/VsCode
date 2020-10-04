@@ -5,6 +5,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Свой сайт с играми на JS</title>
 		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript">
+
+			function checkAnswers() {
+				var userAnswer = document.getElementById("userAnswer1").value;
+				var score = 0;
+				userAnswer = userAnswer.toLowerCase();
+				if(userAnswer == "водопровод" || userAnswer == "водоснабжение" ) {
+					score++;
+				} 
+				userAnswer = document.getElementById("userAnswer2").value;
+				if(userAnswer == "патифон" || userAnswer == "граммофон" ) {
+					score++;
+				}
+				userAnswer = document.getElementById("userAnswer3").value;
+				if(userAnswer == "сапоги" || userAnswer == "ботинки" || userAnswer == "обувь" ) {
+					score++;
+				}
+				alert("Вы отгадали " + score + " из 3-х загадок");
+			}
+
+		</script>
+
 	</head>
 	<body>
 	<div class="content">
@@ -22,11 +44,13 @@
 			<div class="box">
 
 				<p>Речка спятила с ума — По домам пошла сама. Что же это?</p>	
-				<input type="text">
+				<input type="text" id="userAnswer1">
 				<p>Музыкант, певец, рассказчик — а всего труба да ящик. Что это?</p>
-				<input type="text">
+				<input type="text" id="userAnswer2">
 				<p>Пустые отдыхаем, а полные шагаем. Что это?</p>
-				<input type="text">
+				<input type="text" id="userAnswer3">
+				<br>
+				<a href="#" onclick="checkAnswers()">Проверить ответы</a>
 
 			</div>
 
