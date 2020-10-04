@@ -1,44 +1,43 @@
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <script>
-  function compareAnswer(userAnswer, answer) {
-	if (userAnswer == answer) {
-	  alert('Вы молодец, ответ верный!');
-	} else {
-	  alert('Ответ неверный, правильное число ' + answer);
+	function compareAnswer(userAnswer, answer) {
+		if (userAnswer == answer) {
+			alert("Вы молодец, ответ верный!");
+		} else {
+			alert("Ответ неверный, правильное число " + answer);
+		}
 	}
-  }
 
-  function getRandomNumber(max) {
-	return Math.round(Math.random() * max);
-  }
-
-  function generateRandomNumberArray(length) {
-	var numbers = []
-	for (var i = 0; i < 5; i++) {
-	  var randomNumber = getRandomNumber(100);
-	  numbers.push(randomNumber);
+	function getRandomNumber(max) {
+		return Math.round(Math.random() * max);
 	}
-	return numbers;
-  }
 
-  var numbers = generateRandomNumberArray(5)
+	function generateRandomNumberArray(length) {
+		var numbers = [];
+		for (var i = 0; i < 5; i++) {
+			var randomNumber = getRandomNumber(100);
+			numbers.push(randomNumber);
+		}
+		return numbers;
+	}
 
-  alert('Remember the numbers and their order: ' + numbers);
+	var numbers = generateRandomNumberArray(5);
 
-  var userAnswer = +prompt('Which number came first ?!');
-  compareAnswer(userAnswer, numbers[0]);
+	alert("Remember the numbers and their order: " + numbers);
 
-  userAnswer = +prompt('Whats the last number?');
-  compareAnswer(userAnswer, numbers[numbers.length - 1]);
+	var userAnswer = +prompt("Which number came first ?!");
+	compareAnswer(userAnswer, numbers[0]);
 
+	userAnswer = +prompt("Whats the last number?");
+	compareAnswer(userAnswer, numbers[numbers.length - 1]);
 
-  /*
+	/*
   //alert(number[4]) ТАК ДЕЛАТЬ НЕ СТОИТ, ПРОГРАММА НАЧНЕТ ТУПИТЬ!
   /*alert(numbers.length); 5
   alert(numbers[numbers.length - 1]); то же самое что и numbers[4]
   */
 
-  var n = getRandomNumber(numbers.length - 1);
-  userAnswer = +prompt('Вспомните число под номером ' + (n + 1) + '?');
-  compareAnswer(userAnswer, numbers[n]);
+	var n = getRandomNumber(numbers.length - 1);
+	userAnswer = +prompt("Вспомните число под номером " + (n + 1) + "?");
+	compareAnswer(userAnswer, numbers[n]);
 </script>

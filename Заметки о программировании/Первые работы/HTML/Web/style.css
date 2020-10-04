@@ -1,24 +1,24 @@
 .header {
-  border-width: 0.14px;
-  border-color: #b5b7ba;
-  border-style: solid;
-  background-color: gray;
-  height: 48px;
-  text-align: center;
-  padding-top: 20px;
+	border-width: 0.14px;
+	border-color: #b5b7ba;
+	border-style: solid;
+	background-color: gray;
+	height: 48px;
+	text-align: center;
+	padding-top: 20px;
 }
 .header {
-  color: #4d4d4d;
-  font-size: 20px;
-  font-weight: 100;
-  padding-right: 25px;
+	color: #4d4d4d;
+	font-size: 20px;
+	font-weight: 100;
+	padding-right: 25px;
 }
 .footer {
-  background-color: #434445;
-  height: 60px;
-  padding-top: 30px;
-  color: #a4a4a4;
-  font-size: 20px;
-  font-weight: 100;
-  text-align: center;
+	background-color: #434445;
+	height: 60px;
+	padding-top: 30px;
+	color: #a4a4a4;
+	font-size: 20px;
+	font-weight: 100;
+	text-align: center;
 }
