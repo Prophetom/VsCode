@@ -3,17 +3,15 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Свой сайт с играми на JS</title>
+		<title>Cайт с играми на JS</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 
 	<body>
 		<div class="content">
-			<div class="header">
-				<a href="index.html">Главная</a>
-				<a href="puzzle.html">Загадки</a>
-				<a href="guess.html">Угадайка</a>
-			</div>
+		<?php
+		include "menu.php";
+		?>
 
 			<h1>Мой первый сайт с играми</h1>
 
@@ -38,7 +36,7 @@
 		</div>
 
 		<div class="footer">
-			Copyright &copy; <?php echo "Привет";?> Prophetom
+			Copyright &copy; <?php echo date("Y");?> Prophetom
 		</div>
 	</body>
 </html>
