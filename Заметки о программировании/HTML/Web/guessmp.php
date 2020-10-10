@@ -42,6 +42,17 @@
 					write("Вы ввели слишком маленькое число<br>Попробуйте еще раз. Введите число от 1 до 100");
 				}
 			}
+
+			function changePlayer() {
+				if(playerNumber == 1) {
+					playerNumber == 2;
+				} else {
+					playerNumber == 1;
+				}
+			}
+			
+		
+
 		</script>
 
 	</head>

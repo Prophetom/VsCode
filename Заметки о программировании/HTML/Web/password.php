@@ -33,7 +33,8 @@
 			function generate() {
 				var length = readInt();
 				var password = generatePassword(letters, length);
-				write(password);
+				write("Ваш пароль готов: " + password);
+				
 			}
 
 		</script>
