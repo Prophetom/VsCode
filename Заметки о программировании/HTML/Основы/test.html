@@ -1,75 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Личный сайт студента GeekBrains</title>
-<link rel="stylesheet" href="style.css">
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Личный сайт студента GeekBrains</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script type="text/javascript">
 
-<script type="text/javascript">
+      var answer = parseInt(Math.random() * 100);
 
-var letters = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
+      var playerNumber = 1;
 
-function readInt(){
-  return +document.getElementById("userAnswer").value;
-}
+      function readInt(){
+        var number = document.getElementById("userAnswer").value;
+        return parseInt(number);
+        // return +document.getElementById("userAnswer").value;
+      }
 
-function write(text){
-  document.getElementById("password").innerHTML = text;
-}
+      function write(text){
+        document.getElementById("info").innerHTML = text;
+      }
 
-function getRandomNumber(max){
-  return Math.round(Math.random() * max);
-}
+      function hide(id){
+        document.getElementById(id).style.display = "none";
+      }
 
-function generateText(letters, length){
-  var text = "";
-  for(var i = 0; i < length; i++){
-    var n = getRandomNumber(letters.length - 1);
-    text = text + letters[n];
-  }
-  return text;
-}
+      function guess(){
+        var userAnswer = readInt();
+        if(userAnswer == answer){
+          write("<b>Поздравляю, выиграл игрок " + playerNumber + " </b> ");
+          hide("button");
+          hide("userAnswer");
+        } else if(userAnswer > answer){
+          changePlayer();
+          write("Вы ввели слишком большое число<br>Ходит игрок . " + playerNumber + " <br> Введите число от 1 до 100");
+        } else if(userAnswer < answer){
+          changePlayer();
+          write("Вы ввели слишком маленькое число<br>Ходит игрок . " + playerNumber + " <br> Введите число от 1 до 100");             
+        }
+      }
 
-function generate(){
-  var length = readInt();
-  var password = generateText(letters, length);
-  write(password);
-}
-</script>
-</head>
-<body>
+      function changePlayer() {
+        if(playerNumber == 1) {
+          playerNumber = 2;
+        } else {
+          playerNumber = 1;
+        }
+      }
 
-<div class="content">
-      <div class="header">
-        <a href="index.html">Главная</a>
-        <a href="puzzle.html">Загадки</a>
-        <a href="guess.html">Угадайка</a>
-        <a href="guess_2.html">Угадайка мультиплеер</a>
-        <a href="#">Генератор паролей</a>
-      </div>
+    </script>
+  </head>
+  <body>
 
-      <div class="contentWrap">
-        <div class="content">
+  <div class="content">
+    <div class="header">
+      <a href="index.html">Главная</a>
+      <a href="puzzle.html"">Загадки</a>
+      <a href="guess.html">Угадайка</a>
+      <a href="#">Угадайка мультиплеер</a>
+      <a href="pasword.html">Генератор паролей</a>
+    </div>
+
+  <div class="contentWrap">
+      <div class="content">
           <div class="center">
 
-            <h1>Генератор случайных паролей</h1>
-            <div class="box">
-              <p>Укажите длину пароля</p>
-              <input type="text" id="userAnswer">
-              <h3 id="password"></h3>
-              <a href="#" onclick="generate();">Генерировать</a>
-            </div>
-          </div>
+        <h1>Игра угадайка мультиплеер</h1>
+
+        <div class="box">
+
+          <p id="info">Угадайте число от 0 до 100<br>Ходит игрок под номером 1.</p>
+          <input type="text" id="userAnswer">
+          <br>
+          <a href="#" onClick="guess();" id="button">Начать</a>               
         </div>
-      </div>
 
+          </div>
       </div>
+  </div>
 
-      <div class="footer">
+
+
+  </div>
+  <div class="footer">
     Copyright &copy; Alina C.
+  <div>
 
-</div>
 
-</body>
-</html>
+  </body>
+  </html>
