@@ -9,7 +9,7 @@
 
 		var answer = parseInt(Math.random() * 100);
 		var tryCount = 0;
-		var maxTryCount = 3;
+		var maxTryCount = 4;
 
 			function readInt() {
 				var number = document.getElementById("userAnswer").value;
@@ -47,11 +47,9 @@
 	</head>
 	<body>
 	<div class="content">
-		<div class="header">
-			<a href="index.php">Главная</a>
-			<a href="puzzle.php">Загадки</a>
-			<a href="guess.html">Угадайка</a>
-		</div>
+	<?php
+	include "menu.php"
+	?>
 
 <div class="contentWrap">
 	<div class="content">
@@ -59,7 +57,7 @@
 
 			<h1>Игра угадайка</h1>
 			<div class="box">
-				<p id="info">Угадайте число от 1 до 100</p>
+				<p id="info">Угадайте число от 1 до 100<br>Каждый игрок имеет 2 попытки, чтобы угадать число.</p>
 				<input type="text" id="userAnswer">
 				<br>
 				<a href="#" onclick="guess();" id="button">Начать</a>
