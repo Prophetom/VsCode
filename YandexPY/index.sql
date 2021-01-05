@@ -1,11 +1,11 @@
 -- СОЗДАТЬ ТАБЛИЦУ с названием author
-CREATE TABLE author(
+CREATE TABLE quote(
     id    INTEGER PRIMARY KEY, 
     -- создать колонку с названием id, в ней будут ЦЕЛЫЕ ЧИСЛА, 
     -- в этой колонке будут храниться УНИКАЛЬНЫЕ КЛЮЧИ записей
-    name  TEXT NOT NULL,
+    citation  TEXT NOT NULL,
     -- создать колонку с названием name, в ней будет ТЕКСТ 
     -- и НЕ МОЖЕТ БЫТЬ ПУСТОЙ
-    birth_year INTEGER
+    author_id INTEGER
     -- создать колонку с названием birth_year, в ней будут ЦЕЛЫЕ ЧИСЛА
 );
