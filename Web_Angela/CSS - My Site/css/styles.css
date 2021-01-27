@@ -1,19 +1,6 @@
 .top-container {
-    background-color: #bee5d3;
+    background-color: #4e3d53;
     position: relative;
-    padding-top: 100px;
-}
-
-.middle-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
-}
-
-.bottom-container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
 }
 
 body {
@@ -22,14 +9,20 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+#prog {
+    color: #a6f0c6;
+}
+
 h1 {
-    color: #8b5e83;
+    color: #a6f0c6;
     margin-top: 0;
     font-family: 'Sacramento', cursive;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 10px;
 }
 
 h3 {
