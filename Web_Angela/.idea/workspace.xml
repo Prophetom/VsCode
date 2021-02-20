@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e301e80-7a1d-4dda-b560-c7511c9195e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Prophetom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/html_css.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vagrant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS - My Site/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/My Site/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS - My Site/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/My Site/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS - My Site/images/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/My Site/images/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS - My Site/images/cloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/My Site/images/cloud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS - My Site/images/coding.png" beforeDir="false" afterPath="$PROJECT_DIR$/My Site/images/coding.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS - My Site/images/giphy.png" beforeDir="false" afterPath="$PROJECT_DIR$/My Site/images/giphy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS - My Site/images/php.png" beforeDir="false" afterPath="$PROJECT_DIR$/My Site/images/php.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS - My Site/images/python.png" beforeDir="false" afterPath="$PROJECT_DIR$/My Site/images/python.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS - My Site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/My Site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_eng/contact_me.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_eng/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_eng/hobbies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_eng/images/my-photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_eng/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1o4ES7a84UkhaGrkIV1AxNGI1hL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TinDog-Start-master" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e301e80-7a1d-4dda-b560-c7511c9195e2" name="Default Changelist" comment="" />
+      <created>1612537459128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612537459128</updated>
+      <workItem from="1612537461632" duration="550000" />
+      <workItem from="1612814341785" duration="660000" />
+      <workItem from="1613309084141" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
