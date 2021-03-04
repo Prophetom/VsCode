@@ -62,7 +62,9 @@
       <workItem from="1613309328077" duration="1667000" />
       <workItem from="1613579901992" duration="2863000" />
       <workItem from="1613848131309" duration="345000" />
-      <workItem from="1613848492317" duration="2664000" />
+      <workItem from="1613848492317" duration="3373000" />
+      <workItem from="1614001941222" duration="253000" />
+      <workItem from="1614188420632" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="new files">
       <created>1613580371837</created>
@@ -78,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613848317042</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update files">
+      <created>1613851430525</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613851430526</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +108,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new files" />
     <MESSAGE value="tinDog project" />
-    <option name="LAST_COMMIT_MESSAGE" value="tinDog project" />
+    <MESSAGE value="update files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update files" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
