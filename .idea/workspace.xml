@@ -39,7 +39,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../OpenServer/domains/localhost" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="discord-application" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -65,6 +66,12 @@
       <workItem from="1613848492317" duration="3373000" />
       <workItem from="1614001941222" duration="253000" />
       <workItem from="1614188420632" duration="20000" />
+      <workItem from="1616459616782" duration="41000" />
+      <workItem from="1616859569282" duration="546000" />
+      <workItem from="1616861115059" duration="2647000" />
+      <workItem from="1617090824090" duration="36000" />
+      <workItem from="1617090873238" duration="1788000" />
+      <workItem from="1617133367498" duration="5839000" />
     </task>
     <task id="LOCAL-00001" summary="new files">
       <created>1613580371837</created>
