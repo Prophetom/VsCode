@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3160809-ef35-4a8f-85df-0b0fc326e9c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/WorkSpacesEng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WorkSpacesEng.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TinDog-Start-master/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/TinDog-Start-master/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TinDog-Start-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TinDog-Start-master/index.html" afterDir="false" />
@@ -39,9 +41,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../OpenServer/domains/localhost" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/TinDog Completed Website/index.html" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="discord-application" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/TinDog Completed Website/index.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +74,14 @@
       <workItem from="1616861115059" duration="2647000" />
       <workItem from="1617090824090" duration="36000" />
       <workItem from="1617090873238" duration="1788000" />
-      <workItem from="1617133367498" duration="5839000" />
+      <workItem from="1617133367498" duration="6204000" />
+      <workItem from="1617181804991" duration="1573000" />
+      <workItem from="1617183514805" duration="624000" />
+      <workItem from="1617263473997" duration="596000" />
+      <workItem from="1617606693396" duration="5103000" />
+      <workItem from="1617612891856" duration="47000" />
+      <workItem from="1617612959172" duration="11000" />
+      <workItem from="1617612984390" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="new files">
       <created>1613580371837</created>
@@ -94,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613851430526</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update pricing and added carousel">
+      <created>1617139631539</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617139631539</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,10 +133,15 @@
     <MESSAGE value="new files" />
     <MESSAGE value="tinDog project" />
     <MESSAGE value="update files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update files" />
+    <MESSAGE value="update pricing and added carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pricing and added carousel" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
     <find-history />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
