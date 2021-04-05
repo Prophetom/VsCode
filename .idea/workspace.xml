@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3160809-ef35-4a8f-85df-0b0fc326e9c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/WorkSpacesEng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WorkSpacesEng.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TinDog-Start-master/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/TinDog-Start-master/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TinDog-Start-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TinDog-Start-master/index.html" afterDir="false" />
@@ -81,7 +79,8 @@
       <workItem from="1617606693396" duration="5103000" />
       <workItem from="1617612891856" duration="47000" />
       <workItem from="1617612959172" duration="11000" />
-      <workItem from="1617612984390" duration="76000" />
+      <workItem from="1617612984390" duration="1048000" />
+      <workItem from="1617627121419" duration="6109000" />
     </task>
     <task id="LOCAL-00001" summary="new files">
       <created>1613580371837</created>
@@ -111,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617139631539</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated the bottom of the site">
+      <created>1617613182296</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617613182296</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +140,8 @@
     <MESSAGE value="tinDog project" />
     <MESSAGE value="update files" />
     <MESSAGE value="update pricing and added carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="update pricing and added carousel" />
+    <MESSAGE value="Updated the bottom of the site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the bottom of the site" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
