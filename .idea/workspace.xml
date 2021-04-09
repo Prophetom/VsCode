@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3160809-ef35-4a8f-85df-0b0fc326e9c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/WorkSpacesEng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WorkSpacesEng.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TinDog-Start-master/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/TinDog-Start-master/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TinDog-Start-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TinDog-Start-master/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
   <component name="ProjectId" id="1o4AmdcN4GVo8zr4YG3YPakBHZl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/TinDog Completed Website/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../OpenServer/domains/php.web" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/TinDog Completed Website/index.html" />
@@ -80,7 +80,9 @@
       <workItem from="1617612891856" duration="47000" />
       <workItem from="1617612959172" duration="11000" />
       <workItem from="1617612984390" duration="1048000" />
-      <workItem from="1617627121419" duration="6109000" />
+      <workItem from="1617627121419" duration="6742000" />
+      <workItem from="1617698345907" duration="85000" />
+      <workItem from="1617984266495" duration="471000" />
     </task>
     <task id="LOCAL-00001" summary="new files">
       <created>1613580371837</created>
@@ -117,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617613182296</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Code refactoring. &gt; Completed the site.&#10;I made my first website!!">
+      <created>1617638529237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617638529237</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +150,8 @@
     <MESSAGE value="update files" />
     <MESSAGE value="update pricing and added carousel" />
     <MESSAGE value="Updated the bottom of the site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the bottom of the site" />
+    <MESSAGE value="Code refactoring. &gt; Completed the site.&#10;I made my first website!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code refactoring. &gt; Completed the site.&#10;I made my first website!!" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
