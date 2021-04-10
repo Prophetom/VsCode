@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3160809-ef35-4a8f-85df-0b0fc326e9c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/WorkSpacesEng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WorkSpacesEng.iml" afterDir="false" />
+    <list default="true" id="e3160809-ef35-4a8f-85df-0b0fc326e9c0" name="Default Changelist" comment="mini upd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,11 @@
       <workItem from="1617612984390" duration="1048000" />
       <workItem from="1617627121419" duration="6742000" />
       <workItem from="1617698345907" duration="85000" />
-      <workItem from="1617984266495" duration="471000" />
+      <workItem from="1617984266495" duration="554000" />
+      <workItem from="1618002154719" duration="43000" />
+      <workItem from="1618002302045" duration="21000" />
+      <workItem from="1618002339104" duration="24000" />
+      <workItem from="1618002387575" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="new files">
       <created>1613580371837</created>
@@ -126,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617638529237</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mini upd">
+      <created>1617984772357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617984772357</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +161,8 @@
     <MESSAGE value="update pricing and added carousel" />
     <MESSAGE value="Updated the bottom of the site" />
     <MESSAGE value="Code refactoring. &gt; Completed the site.&#10;I made my first website!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code refactoring. &gt; Completed the site.&#10;I made my first website!!" />
+    <MESSAGE value="mini upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini upd" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
