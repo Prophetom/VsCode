@@ -1,7 +1,7 @@
 import random
 
-from complexProjects.hangmanD7.hangman_words import word_list
-from complexProjects.hangmanD7.hangman_art import stages, logo
+from complexProjects.hangmanD6.hangman_words import word_list
+from complexProjects.hangmanD6.hangman_art import stages, logo
 
 word_list = word_list
 chosen_word = random.choice(word_list)
