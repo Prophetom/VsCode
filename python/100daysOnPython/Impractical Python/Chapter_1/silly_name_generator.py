@@ -1,11 +1,7 @@
 """Generate funny names by randomly combining names from 2 separate lists."""
+# NOTE: The above describes of docstrings, namely the documentation literal
 import random
 import sys
-
-
-def main():
-    """Choose names at random from 2 tuples of names and print to screen."""
-
 
 print("Welcome to the Psych 'Sidekick Name Picker.'\n")
 print("A name just like Sean would pick for Gus:\n\n")
@@ -46,13 +42,14 @@ while True:
     last_name = random.choice(last)
 
     print("\n\n")
+    # NOTE: To convert named variables into a character chain, the newer method
+    #  formatting of character strings. The comma stops appearing even
+    #  though it's present in print.
     print("{} {}".format(first_name, last_name), file=sys.stderr)
     print("\n\n")
 
     try_again = input("Try again? (Press Enter else n to quit) \n ")
     if try_again.lower() == "n":
         break
-input("\nPress Enter to exit.")
 
-if __name__ == "__main__":
-    main()
+input("\nPress Enter to exit.")
